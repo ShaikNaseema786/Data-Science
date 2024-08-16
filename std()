@@ -1,0 +1,16 @@
+*****STANDARD DEVIATION***
+import numpy as np
+array1=np.array([[2,4,6],
+                [8,10,12],
+                [14,16,18]])
+#compute std along horizontal axis
+result1=np.std(array1,axis=1)
+print("standard deviation along with horizntal axis:",result1)
+
+#compute std along vertical axis
+result2=np.std(array1,axis=0)
+print("standard deviation along with vertical axis:",result2)
+
+#compute std of entire array
+result3=np.std(array1)
+print("standard deviation of entire array:",result3)
