@@ -1,0 +1,21 @@
+import pandas as pd
+df1={
+    'name':['hari','ram'],
+    'age':[24,25],
+    'city':['ongole','chirala'],
+    'address':['inkollu','pavuluru'],
+    'email':['hari@12','ram@32']
+}
+df2={
+    'name':['alice','ram'],
+    'age':[24,35],
+    'city':['ongole','inkollu'],
+    'address':['peta','pavuluru'],
+    'email':['alicee@12','ram@12']
+}
+data1=pd.DataFrame(df1,index=[0,1])
+print(data1)
+data2=pd.DataFrame(df2,index=[2,3])
+print(data2)
+op=pd.merge(data1,data2,on='city')
+op
