@@ -1,0 +1,9 @@
+import numpy as np 
+first_array=np.array([8,12,64,32])
+second_array=np.array([2,4,8,16])
+# using the * operator
+result1=first_array*second_array
+print("using the * operator:",result1)
+#using the multiply() funcation
+result2=np.multiply(first_array,second_array)
+print("using the multiply() funcation:",result2)
