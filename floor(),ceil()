@@ -1,0 +1,11 @@
+#rounding function
+import numpy as np 
+number=np.array([1.23456,2.34567,3.45678,4.56789])
+#round the array to two decimal palces
+rounded_array=np.round(number,2)
+print(rounded_array)
+array1=np.array([1.23456,2.3456,3.45678,4.56789])
+print("array after floro():",np.floor(array1))
+print("array after ceil():",np.ceil(array1))
+
+
