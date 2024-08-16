@@ -1,0 +1,16 @@
+****SLICING ARRAY****
+
+import numpy as np 
+
+arr=np.array([1,2,3,4,5,6,7])
+print("SLICiNG THE ELEMENT FROM 1 TO 4:", arr[1:5])
+print("SLICiNG THE ELEMENT FROM 4 TO END:", arr[4:])
+print("SLICiNG THE ELEMENT FROM STRAT TO 3:", arr[:4])
+
+Output:
+
+SLICiNG THE ELEMENT FROM 1 TO 4: [2 3 4 5]
+SLICiNG THE ELEMENT FROM 4 TO END: [5 6 7]
+SLICiNG THE ELEMENT FROM START TO 3: [1 2 3 4]
+
+
