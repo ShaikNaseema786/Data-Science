@@ -1,0 +1,9 @@
+import numpy as np 
+x1=np.array([True,False,True])
+x2=np.array([False,False,True])
+#logical operator
+print (np.logical_and(x1,x2))# out put[False False True]
+# logical or
+print(np.logical_or(x1,x2))#out put[True False True]
+#logical not
+print(np.logical_not(x1))# out put[False True False]
