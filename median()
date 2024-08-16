@@ -1,0 +1,16 @@
+*****MEDIAN******
+import numpy as np
+array1=np.array([[2,4,6],
+                [8,10,12],
+                [14,16,18]])
+#compute median along horizontal axis
+result1=np.median(array1,axis=1)
+print("median along with horizntal axis:",result1)
+
+#compute median along vertical axis
+result2=np.median(array1,axis=0)
+print("median along with vertical axis:",result2)
+
+#compute median of entire array
+result3=np.median(array1)
+print("median of entire array:",result3)
