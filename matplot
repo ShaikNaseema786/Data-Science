@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+# creating plot
+plt.plot([1,2,3,4],[10,20,25,30])
+# customizing  axis limits and abels
+plt.xlim(0,5)
+plt.ylim(0,35)
+plt.xlabel('x-axis')
+plt.ylabel('y-axis')
+plt.title('Sample plot')
+plt.show()
