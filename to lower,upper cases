@@ -1,0 +1,27 @@
+****CASE****
+import numpy as np 
+#define array with three string element
+array1=np.array(['A','B','C'])
+# repeat each element in array1 two times
+result=np.char.multiply(array1,2)
+print(result)
+#define an array with three string element
+array1=np.array(['eric','paul','sean'])
+#capitalize the first letter of each string in array
+result=np.char.capitalize(array1)
+print(result)
+array1=np.array(['nEpalI','AmeriCAN','CaNadIan'])
+#convert all string element to uppercase
+result1=np.char.upper(array1)
+#convert all string element to lowercase
+result2=np.char.lower(array1)
+print(" To UPPERCASE:",result1)
+print("To lowercase:",result2)
+
+
+Output:
+
+['AA' 'BB' 'CC']
+['Eric' 'Paul' 'Sean']
+ To UPPERCASE: ['NEPALI' 'AMERICAN' 'CANADIAN']
+To lowercase: ['nepali' 'american' 'canadian']
